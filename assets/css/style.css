@@ -8,8 +8,11 @@
 }
 
 body {
-    height: 100vh;
     background: linear-gradient(140deg,#6441a5,#2a0845);
+}
+
+main {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,4 +49,8 @@ body {
 .clock span.time {
     font-size: 12px;
     
+}
+
+footer {
+    text-align: center;
 }
